@@ -1,0 +1,25 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+?>
+
+<div id="selector" data-bind="scope: 'rickandmort'">
+    <!-- ko template: getTemplate() -->
+    <!-- /ko -->
+</div>
+
+<script type="text/x-magento-init">
+{
+    "#selector": {
+        "Magento_Ui/js/core/app": {
+                "components":{
+                    "rickandmort":{
+                        "component": "Omnipro_RickAndMorty/js/child-component",
+                        "template": "Omnipro_RickAndMorty/person"
+                    }
+                }
+            }
+        }
+    }
+    
+
+</script>
