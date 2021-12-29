@@ -1,17 +1,16 @@
 {
-    "name": "omnipro/rickandmorty",
-    "description": "",
-    "type": "magento2-module",
-    "version": "1.0.0",
-    "license": [
-      "MIT"
-    ],
-    "autoload": {
-      "psr-4": {
-        "Omnipro\\RickAndMorty\\": ""
-      },
-      "files": [
-        "registration.php"
-      ]
-    }
+  "info": {
+    "count": "826",
+    "pages": "42",
+    "next": "https://rickandmortyapi.com/api/character?page=2",
+    "prev": "null"
+  },
+  "results": {
+    "id": "1",
+    "name": "Rick Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "type": "",
+    "gender": "Male"
   }
+}
